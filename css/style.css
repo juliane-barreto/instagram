@@ -113,8 +113,53 @@ ion-icon {
     right: 5px;
 }
 
+.timeline {
+    background-color: #ffffff;
+    width: 100%;
+
+}
+
+.timeline {
+    margin-top: 24px;
+}
+
+.post {
+    border: 1px solid black;
+    margin-bottom: 60px;
+}
+
+.post .cab {
+    height: 82px;
+    background-color: pink;
+}
+
+.post img {
+    width: 100%;
+}
+
+.post .footer {
+    height: 60px;
+    background-color: lightgreen;
+}
+
 .sidebar {
     background-color: lightblue;
     width: 321px;
     height: 300px;
+}
+
+@media(max-width:935px) {
+    .container {
+        background-color: red;
+        flex-direction: column;
+    }
+
+    .main {
+        background-color: green;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
 }
